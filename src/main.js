@@ -1,6 +1,10 @@
-import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
+import TodoItem from './components/TodoItem.vue'
+// import FoodItem from './components/FoodItem.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+// app.component('food-item',FoodItem)
+app.component('todo-item', TodoItem)
+app.mount('#app')
