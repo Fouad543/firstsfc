@@ -63,10 +63,10 @@
       v-for="x in items"
       :key="x"
       :item-name="x"
-      style="background-color: lightgreen;"
+      style="background-color: lightgreen"
     />
   </ul>
-  <input placeholder="Add things to do here" v-model="newItem" @keydown.enter="addItem">
+  <input id="add_task" name="new_task" placeholder="Add things to do here" v-model="newItem" @keydown.enter="addItem">
   <button @click="addItem">Add</button>
 </template>
 
