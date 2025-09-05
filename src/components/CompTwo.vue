@@ -25,8 +25,7 @@
 <script>
 </script>
 
-<style scoped>
-	p {
+<style scoped>s
 		font-weight: bold;
 	}
 	div {
